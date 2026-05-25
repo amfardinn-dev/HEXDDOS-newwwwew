@@ -16,11 +16,11 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 load_dotenv()
 
-BOT_TOKEN        = os.getenv("8404988051:AAELzLDg19NSbCaIKeIHXAYmLrfx7cFTW-I")
-MONGODB_URI      = os.getenv("https://mangob.st/attack", "HEX.09.01")
-DATABASE_NAME    = os.getenv("DIEHEX", "attack_bot")
-API_URL          = os.getenv("https://kimstress.st")
-API_KEY          = os.getenv("7d6134479bd735f9c85b0ac129ef5df47 2b11614e6f6eec07a00fcc0240c7ca")
+BOT_TOKEN        = os.getenv("7175088392:AAH1SqzZUUIEdtcMNT_fYpNvDSW735Dg7os")
+MONGODB_URI      = os.getenv("mongodb+srv://nisarulhassan7860_db_user:aJuswKtEElcYwiZY@chestifardeen.kmjk4u4.mongodb.net/?appName=chestifardeen")
+DATABASE_NAME    = os.getenv("bgmi_bot" "far")
+API_URL          = os.getenv("API_URL = "https://generativelanguage.googleapis.com/v1beta/models")
+API_KEY          = os.getenv("AIzaSyBLlmQPi9fecR91ZDNG9yyR22K9qJvLcc4")
 ADMIN_IDS        = [int(x.strip()) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip()]
 CHANNEL_ID       = os.getenv("TNTHACKER", "")
 CHANNEL_USERNAME = os.getenv("@PRAGNESHRAMPURE", "")
