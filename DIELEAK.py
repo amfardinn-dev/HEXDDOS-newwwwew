@@ -22,8 +22,8 @@ DATABASE_NAME    = os.getenv("bgmi_bot" "far")
 API_URL          = os.getenv("API_URL = "https://generativelanguage.googleapis.com/v1beta/models")
 API_KEY          = os.getenv("AIzaSyBLlmQPi9fecR91ZDNG9yyR22K9qJvLcc4")
 ADMIN_IDS        = [int(x.strip()) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip()]
-CHANNEL_ID       = os.getenv("TNTHACKER", "")
-CHANNEL_USERNAME = os.getenv("@PRAGNESHRAMPURE", "")
+CHANNEL_ID       = os.getenv("1003927427016")
+CHANNEL_USERNAME = os.getenv("@bgmihackios")
 CHANNEL_INVITE   = os.getenv("CHANNEL_INVITE_LINK", "")
 
 BLOCKED_PORTS = {8700, 20000, 443, 17500, 9031, 20002, 20001}
